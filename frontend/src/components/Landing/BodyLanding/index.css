@@ -217,5 +217,5 @@ span {
 
 .animation {
     position: relative;
-    animation: animation 2s ease-in-out infinite;
+    animation: animation 1.75s ease-in-out infinite;
 }
