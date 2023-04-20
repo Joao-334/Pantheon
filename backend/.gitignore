@@ -4,3 +4,4 @@ src
 tsconfig.json
 jsconfig.jsconfig
 yarn.lock
+yarn-error.log

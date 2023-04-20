@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9e9f1;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.logo-txt{
+    display: flex;
+}
+
+.logo-txt > h1{
+    padding: 30px;
+    display: flex;
+    color: #414582;
+    
+}
+
+.nomec{
+    margin: 0;
+    padding-bottom: 30px;
+}
+.nomec > label{
+    color: #414582;
+    font-size: 20px;
+    
+}
+
+.nomec > input{
+    width: 40%;
+    height: 35px;
+    padding-left: 5px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    color: #9497BB;
+    background-color:   #414582;
+    border-radius: 15px;
+    
+}
+
+.cnpj{
+    
+    margin: 0;
+}
+
+.cnpj> label{
+    color: #414582;
+    font-size: 20px;    
+}
+
+.cnpj > input{
+    width: 65%;
+    height: 35px;
+    font-size: 15px;
+    color: #9497BB;
+    background-color: #414582;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+
+.tel{
+    display: inline-block;
+    margin: 0;
+}
+
+.tel> label{
+    color: #414582;
+    font-size: 20px;
+}
+
+.tel > input{
+    width: 65%;
+    height: 35px;
+    font-size: 15px;
+    color: #9497BB;
+    background-color: #414582;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+

@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #414582;
+    padding: 15px 150px;
+}
+
+.title {
+    display: flex;
+}
+
+.title h1 {
+    color: #e9e9f1;
+    letter-spacing: 5px;
+    padding-left: 30px;
+    align-self: center;
+}
+
+.links li {
+    margin: 10px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+}
+
+.links button {
+    margin: 10px;
+    padding: 10px 15px;
+    color: #414582;
+    font-weight: 1000;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    background: #e9e9f1;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
