@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    padding: 15px 150px;
+}
+
+header h1 {
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 5px;
+    padding-left: 30px;
+    color: #414582;
+}
