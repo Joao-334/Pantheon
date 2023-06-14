@@ -12,64 +12,65 @@
     <title>Cadastro</title>
 </head>
 <body>
-   
-    <div class="logo-txt">
-        <img src="/img/logoAzul.png" width="100px" alt="logoAzul">
+    <header>
+        <img src="/img/logoAzul.png" width="100px" alt="logo.png">
         <h1>Pantheon</h1>
-    </div>
-<form >
+    </header>
+    <main>
+        <div class="card">
+            <div class="container-intro">
+                <h1>É novo(a) por aqui?</h1>
+                <p>Nosso sistema visa prover a microempreendedores a otimização de processos a nível de grandes empresas. 
+                    O que está esperando para dar um Up em seu comércio/serviço?</p>
+                <img src="./img/cad.png" width="300px" alt="computador.png">
+            </div>
 
-    <div class="imagem">
-        <h1>Cadastre-se</h1>
-        <img src="/img/garota no pc.svg" width="450px" alt="garota-no-pc">
-    </div>
+            <div class="container-cad">
+                <div class="textfield">
+                    <label for="inome-p">Nome do proprietário</label>
+                    <input type="text" name="nome-p" id="inome-p">
+                </div>
+                
+                <div class="textfield">
+                    <label for="icpf">CPF</label>
+                    <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00">
+                </div>
 
-    <div class="nomec">
-        <label for="nomeCompanhia">Nome da Companhia</label>
-        <input type="text" name="nomeCompanhia">
-    </div>
-    <div class="cnpj">
-        <label for="cnpj">CNPJ</label>
-        <input type="text" name="cnpj" placeholder="00.000.000/0000-00">
-    </div>
-    <div class="tel">
-        <label for="teltelefone">Telefone</label>
-        <input type="tel" name="telefone" placeholder="(00) 0 0000-0000">
-    </div>
-    <div class="emailc">
-        <label for="e-mail">E-mail corporativo</label>
-        <input type="email" name="e-mail" placeholder="example@gmail.com">
-    </div>
-    <div class="senha">
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" placeholder="Ex:1234567890">
-    </div>
-    <div class="confinsenha">  
-        <label for="csenha">Confirmar senha</label>
-        <input type="password" name="csenha" placeholder="Ex:1234567890"></div>
-    </div>
-    <div class="nomeres">
-       <label for="nomeresponsavel">Nome do propietario/responsável</label>
-       <input type="text" name="nome" >
-    </div>
-    <div class="cpf">
-       <label for="cpf">CPF</label>
-       <input type="text" name="cpf" placeholder="000.000.000-00">
-    </div>
-    <div class="tel2">
-       <label for="tel">Telefone pessoal</label>
-       <input type="tel" name="tel" placeholder="(00) 0 0000-0000">
-    </div>
-    <div class="email">
-       <label for="e-mail">E-mail pessoal</label>
-       <input type="email" name="e-mail" placeholder="example@gmail.com">
-    </div>
-    
-    <div class="btn">
-        <input type="button" value="Cadastre-se">
-    </div>
+                <div class="textfield">
+                    <label for="inomeCompanhia">Nome da Companhia</label>
+                    <input type="text" name="text-NC" id="itext-NC">
+                </div>
+                
+                <div class="textfield">
+                    <label for="icnpj">CNPJ</label>
+                    <input type="text" name="cnpj" id="icnpj" placeholder="00.000.000/0000-00">
+                </div>
+                
+                <div class="textfield">
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" placeholder="(00) 0 0000-0000">
+                </div>
+                
+                <div class="textfield">
+                    <label for="iemail">E-mail corporativo</label>
+                    <input type="email" name="e-mail" id="iemail" placeholder="example@gmail.com">
+                </div>
 
-</form>
-</div>
+                <div class="textfield">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha">    
+                </div>
+                
+                <div class="textfield">
+                    <label for="icsenha">Confirmar senha</label>
+                    <input type="password" name="csenha" id="icsenha">
+                </div>
+
+                <div class="btn">
+                    <a href="index.html"><button>Criar conta</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
